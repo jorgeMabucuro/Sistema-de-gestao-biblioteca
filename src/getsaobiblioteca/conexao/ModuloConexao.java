@@ -14,7 +14,7 @@ public class ModuloConexao {
     public static Connection conectar(){
         Connection conexao = null;
         String Driver = "com.mysql.cj.jdbc.Driver";
-        String url = "jdbc:mysql://localhost:3306/biblioteca";
+        String url = "jdbc:mysql://localhost:3306/bibliotecaJava";
         String user = "root";
         String password = "";
         try {
